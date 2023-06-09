@@ -24,9 +24,6 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
 }
 
-
-/* #0000ff */
-
 body {
     background: #c33764;
     /* fallback for old browsers */
@@ -1346,13 +1343,13 @@ h1 {
 .schedule .card .schedule-slot-time {
     background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
     color: #fff;
-    padding: 48px 28px;
+    padding: 38px 28px;
     float: left;
     font-size: 18px;
     font-weight: 700;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 20%;
-    flex: 0 0 18%;
+    flex: 0 0 25%;
     z-index: 999;
     max-width: 18%;
 }
@@ -1398,8 +1395,6 @@ h1 {
 
 .schedule .card-header .name {
     position: relative;
-    font-size: 40px;
-    letter-spacing: 5px;
     font-weight: 500;
     display: inline-block;
     margin-bottom: 5px;
@@ -1419,6 +1414,7 @@ h1 {
 
 .card-body p {
     line-height: 1.6em;
+    font-size: 19px;
 }
 
 .schedule .card-body .location span {
@@ -2704,7 +2700,7 @@ div#clock {
 
 @media (max-width: 768px) {
     #count .count-wrapper {
-        margin-top: 100px;
+        margin-top: 10px;
         top: -200px;
         z-index: 0;
         color: white;
@@ -2910,4 +2906,12 @@ li.stylish-list {
 
 .prize-desc {
     display: none;
+}
+
+#button {
+    width: 250px;
+}
+
+#contact-text .container ul li span {
+    font-size: 19px;
 }
