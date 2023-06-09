@@ -969,7 +969,7 @@ a.back-to-top:focus {
 
 .about-content ul li {
     list-style: none;
-    line-height: 30px;
+    line-height: 40px;
     position: relative;
     padding-left: 25px;
 }
@@ -1346,13 +1346,14 @@ h1 {
 .schedule .card .schedule-slot-time {
     background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
     color: #fff;
-    padding: 38px 28px;
+    padding: 48px 28px;
     float: left;
     font-size: 18px;
     font-weight: 700;
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 18%;
+    -ms-flex: 0 0 20%;
     flex: 0 0 18%;
+    z-index: 999;
     max-width: 18%;
 }
 
@@ -1363,8 +1364,7 @@ h1 {
 
 .schedule .card-header {
     position: relative;
-    padding: 35px 40px 35px 224px;
-    border-bottom: 1px dashed #e5e5e5;
+    padding: 15px 40px 5px 224px;
     cursor: pointer;
     border-left: none;
     width: 100%;
@@ -1393,6 +1393,7 @@ h1 {
     color: #212121;
     text-transform: uppercase;
     margin-bottom: 8px;
+    margin-left: 40px;
 }
 
 .schedule .card-header .name {
@@ -1402,6 +1403,7 @@ h1 {
     font-weight: 500;
     display: inline-block;
     margin-bottom: 5px;
+    margin-left: 30px;
 }
 
 .schedule .card-body {
