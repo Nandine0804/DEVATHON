@@ -1,0 +1,19 @@
+body,
+html {
+    background: #242424;
+}
+
+.blog-more {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: not-allowed;
+}
+
+#nav-logo {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+}
